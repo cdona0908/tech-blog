@@ -7,6 +7,12 @@
   --border-radius: .3rem;
 }
 
+.posted-by {
+  font-size: 14px;  
+  text-decoration: none;
+  color: var(--primary);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -170,6 +176,7 @@ p {
   background-color: var(--dark);
   padding: 2.5%;
   border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+
 }
 .card-header h2{
   color: var(--primary);  
