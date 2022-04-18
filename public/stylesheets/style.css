@@ -55,7 +55,12 @@ nav {
 
 a {
   text-decoration: none;
+  color: var(--primary);
 }
+
+.login-signup-link {
+color: var(--dark);
+}  
 
 p {
   font-size: 1.2rem;
@@ -75,6 +80,11 @@ p {
   background-color: var(--light-dark);
   box-shadow: 3px 3px var(--dark);
   transform: translate(-1px, -1px);
+  
+}
+.btn-short{
+  width: 10%;
+  margin-bottom: 1px;  
 }
 
  .btn:hover {
@@ -201,10 +211,10 @@ p {
 
 .form-input {
   width: 100%;
-  padding: 3%;
+  padding: 1%;
   margin: 5px 0;
   font-size: 1.2rem;
-  border: 2px solid var(--light-dark);
+  border: none;
   border-radius: var(--border-radius);
 }
 
