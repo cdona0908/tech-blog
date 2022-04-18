@@ -32,6 +32,7 @@ Once the application is connected to the server, the user will be able to get, c
 
 Deployed application:
 
+ https://limitless-taiga-60188.herokuapp.com
 
 
 ## Programming Languages
